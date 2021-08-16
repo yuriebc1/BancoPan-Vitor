@@ -69,3 +69,7 @@ jobs:
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
+      
+      - name: 42Crunch REST API Static Security Testing
+  uses: 42Crunch/api-security-audit-action@v2
+
